@@ -2,3 +2,8 @@ name: CubeEnchant
 version: '${project.version}'
 main: com.joonseo.cubeenchant.CubeEnchant
 api-version: '1.21'
+
+commands:
+  cube:
+    description: 손에 든 아이템에 무작위 인첸트를 부여한다.
+    usage : /cube

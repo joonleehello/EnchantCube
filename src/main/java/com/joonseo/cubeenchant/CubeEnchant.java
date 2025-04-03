@@ -6,6 +6,8 @@ public final class CubeEnchant extends JavaPlugin {
 
     @Override
     public void onEnable() {
+
+        getCommand("cube").setExecutor(new ChangeOption());
         // Plugin startup logic
 
     }
