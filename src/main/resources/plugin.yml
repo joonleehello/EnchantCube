@@ -1,0 +1,4 @@
+name: CubeEnchant
+version: '${project.version}'
+main: com.joonseo.cubeenchant.CubeEnchant
+api-version: '1.21'
