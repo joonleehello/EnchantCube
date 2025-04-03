@@ -136,7 +136,7 @@ public class ChangeOption implements CommandExecutor {
         String name = stuff.name();
 
         if (name.endsWith("_SWORD")) return "SWORD";
-        if (name.endsWith("_PICKAXE") || name.endsWith("_AXE") || name.endsWith("_SHOVEL") || name.endsWith("_PICKAXE") || name.endsWith("_HOE")) return "TOOL";
+        if (name.endsWith("_PICKAXE") || name.endsWith("_AXE") || name.endsWith("_SHOVEL")  || name.endsWith("_HOE")) return "TOOL";
         if (name.endsWith("_HELMET")) return "HELMET";
         if (name.endsWith("_CHESTPLATE")) return "CHESTPLATE";
         if (name.endsWith("_LEGGINGS")) return "LEGGINGS";
