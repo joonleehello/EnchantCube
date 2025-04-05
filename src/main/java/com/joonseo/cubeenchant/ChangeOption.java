@@ -39,50 +39,50 @@ public class ChangeOption implements CommandExecutor {
     static {
 
         EnchantTable.put("SWORD", new EnchantLevel[]{
-                new EnchantLevel(Enchantment.UNBREAKING, 1, 3),
+                new EnchantLevel(Enchantment.UNBREAKING, 1, 4),
                 new EnchantLevel(Enchantment.MENDING, 1, 1),
                 new EnchantLevel(Enchantment.BINDING_CURSE, 1, 1),
                 new EnchantLevel(Enchantment.VANISHING_CURSE, 1, 1),   // Common Enchant(공통 인첸트)
-                new EnchantLevel(Enchantment.SHARPNESS, 1, 5),
-                new EnchantLevel(Enchantment.SMITE, 1, 5),
+                new EnchantLevel(Enchantment.SHARPNESS, 1, 6),
+                new EnchantLevel(Enchantment.SMITE, 1, 6),
                 new EnchantLevel(Enchantment.BANE_OF_ARTHROPODS, 1, 5),
                 new EnchantLevel(Enchantment.KNOCKBACK, 1, 2),
                 new EnchantLevel(Enchantment.FIRE_ASPECT, 1, 2),
                 new EnchantLevel(Enchantment.SWEEPING_EDGE, 1, 3),
-                new EnchantLevel(Enchantment.LOOTING, 1, 3)
+                new EnchantLevel(Enchantment.LOOTING, 1, 4)
         });
 
         EnchantTable.put("TOOL", new EnchantLevel[]{
-                new EnchantLevel(Enchantment.UNBREAKING, 1, 3),
+                new EnchantLevel(Enchantment.UNBREAKING, 1, 4),
                 new EnchantLevel(Enchantment.MENDING, 1, 1),
                 new EnchantLevel(Enchantment.BINDING_CURSE, 1, 1),
                 new EnchantLevel(Enchantment.VANISHING_CURSE, 1, 1),   // Common Enchant(공통 인첸트)
-                new EnchantLevel(Enchantment.EFFICIENCY, 1, 5),
+                new EnchantLevel(Enchantment.EFFICIENCY, 1, 6),
                 new EnchantLevel(Enchantment.SILK_TOUCH, 1, 1),
-                new EnchantLevel(Enchantment.FORTUNE, 1, 3)
+                new EnchantLevel(Enchantment.FORTUNE, 1, 4)
 
         });
 
         EnchantTable.put("HELMET", new EnchantLevel[]{
-                new EnchantLevel(Enchantment.UNBREAKING, 1, 3),
+                new EnchantLevel(Enchantment.UNBREAKING, 1, 4),
                 new EnchantLevel(Enchantment.MENDING, 1, 1),
                 new EnchantLevel(Enchantment.BINDING_CURSE, 1, 1),
                 new EnchantLevel(Enchantment.VANISHING_CURSE, 1, 1),   // Common Enchant(공통 인첸트)
-                new EnchantLevel(Enchantment.PROTECTION, 1, 4),
+                new EnchantLevel(Enchantment.PROTECTION, 1, 5),
                 new EnchantLevel(Enchantment.FIRE_PROTECTION, 1, 4),
                 new EnchantLevel(Enchantment.BLAST_PROTECTION, 1, 4),
                 new EnchantLevel(Enchantment.PROJECTILE_PROTECTION, 1, 4),
                 new EnchantLevel(Enchantment.THORNS, 1, 3),           //Armor Common Enchant(갑옷 공통 인첸트)
-                new EnchantLevel(Enchantment.RESPIRATION, 1, 3),
+                new EnchantLevel(Enchantment.RESPIRATION, 1, 4),
                 new EnchantLevel(Enchantment.AQUA_AFFINITY, 1, 1)
         });
 
         EnchantTable.put("CHESTPLATE", new EnchantLevel[]{
-                new EnchantLevel(Enchantment.UNBREAKING, 1, 3),
+                new EnchantLevel(Enchantment.UNBREAKING, 1, 4),
                 new EnchantLevel(Enchantment.MENDING, 1, 1),
                 new EnchantLevel(Enchantment.BINDING_CURSE, 1, 1),
                 new EnchantLevel(Enchantment.VANISHING_CURSE, 1, 1),   // Common Enchant(공통 인첸트)
-                new EnchantLevel(Enchantment.PROTECTION, 1, 4),
+                new EnchantLevel(Enchantment.PROTECTION, 1, 5),
                 new EnchantLevel(Enchantment.FIRE_PROTECTION, 1, 4),
                 new EnchantLevel(Enchantment.BLAST_PROTECTION, 1, 4),
                 new EnchantLevel(Enchantment.PROJECTILE_PROTECTION, 1, 4),
@@ -90,11 +90,11 @@ public class ChangeOption implements CommandExecutor {
         });
 
         EnchantTable.put("LEGGINGS", new EnchantLevel[]{
-                new EnchantLevel(Enchantment.UNBREAKING, 1, 3),
+                new EnchantLevel(Enchantment.UNBREAKING, 1, 4),
                 new EnchantLevel(Enchantment.MENDING, 1, 1),
                 new EnchantLevel(Enchantment.BINDING_CURSE, 1, 1),
                 new EnchantLevel(Enchantment.VANISHING_CURSE, 1, 1),   // Common Enchant(공통 인첸트)
-                new EnchantLevel(Enchantment.PROTECTION, 1, 4),
+                new EnchantLevel(Enchantment.PROTECTION, 1, 5),
                 new EnchantLevel(Enchantment.FIRE_PROTECTION, 1, 4),
                 new EnchantLevel(Enchantment.BLAST_PROTECTION, 1, 4),
                 new EnchantLevel(Enchantment.PROJECTILE_PROTECTION, 1, 4),
@@ -103,30 +103,30 @@ public class ChangeOption implements CommandExecutor {
         });
 
         EnchantTable.put("BOOTS", new EnchantLevel[]{
-                new EnchantLevel(Enchantment.UNBREAKING, 1, 3),
+                new EnchantLevel(Enchantment.UNBREAKING, 1, 4),
                 new EnchantLevel(Enchantment.MENDING, 1, 1),
                 new EnchantLevel(Enchantment.BINDING_CURSE, 1, 1),
                 new EnchantLevel(Enchantment.VANISHING_CURSE, 1, 1),   // Common Enchant(공통 인첸트)
-                new EnchantLevel(Enchantment.PROTECTION, 1, 4),
+                new EnchantLevel(Enchantment.PROTECTION, 1, 5),
                 new EnchantLevel(Enchantment.FIRE_PROTECTION, 1, 4),
                 new EnchantLevel(Enchantment.BLAST_PROTECTION, 1, 4),
                 new EnchantLevel(Enchantment.PROJECTILE_PROTECTION, 1, 4),
                 new EnchantLevel(Enchantment.THORNS, 1, 3),           //Armor Common Enchant(갑옷 공통 인첸트)
-                new EnchantLevel(Enchantment.FEATHER_FALLING, 1, 4),
+                new EnchantLevel(Enchantment.FEATHER_FALLING, 1, 5),
                 new EnchantLevel(Enchantment.DEPTH_STRIDER, 1, 3),
                 new EnchantLevel(Enchantment.FROST_WALKER, 1, 2),
                 new EnchantLevel(Enchantment.SOUL_SPEED, 1, 3)
         });
 
         EnchantTable.put("BOW", new EnchantLevel[]{
-                new EnchantLevel(Enchantment.UNBREAKING, 1, 3),
+                new EnchantLevel(Enchantment.UNBREAKING, 1, 4),
                 new EnchantLevel(Enchantment.MENDING, 1, 1),
                 new EnchantLevel(Enchantment.BINDING_CURSE, 1, 1),
                 new EnchantLevel(Enchantment.VANISHING_CURSE, 1, 1),   // Common Enchant(공통 인첸트)
-                new EnchantLevel(Enchantment.POWER, 1, 5),
+                new EnchantLevel(Enchantment.POWER, 1, 6),
                 new EnchantLevel(Enchantment.PUNCH, 1, 2),
                 new EnchantLevel(Enchantment.FLAME, 1, 1),
-                new EnchantLevel(Enchantment.INFINITY, 1, 2),
+                new EnchantLevel(Enchantment.INFINITY, 1, 1),
         });
 
     }
